@@ -8,5 +8,3 @@ after_build:
 - dir /s /b *.licenses
 
 test: off
-
-# change
