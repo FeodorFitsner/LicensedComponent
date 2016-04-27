@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners />
+    <id>$id$</id>
+    <title />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+  </metadata>
+  <files>
+    <file src="..\licenses.licx" target="Content\Properties"/>
+    <!-- Ensure the .lic file is packaged next to its companion .dll inside the Lib folder -->
+    <file src="LicensedComponent.LicensedUserControl.lic" target="Lib\net40-Client"/>
+  </files>
+</package>
