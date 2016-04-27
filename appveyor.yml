@@ -1,0 +1,4 @@
+build:
+  verbosity: normal
+
+test: off
